@@ -211,3 +211,25 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+/**
+ *
+ * Overrides
+ **/
+.mdl-layout__header{
+  min-height: 10vh;
+  max-height: 60vh;
+  background: url('../images/hero-background-1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position-y: -350px;
+}
+.mdl-layout__header-row{
+  height: 20vh;
+}
+.mdl-layout__tab-bar{
+  margin-top: -63px;
+  background: rgba(0, 0, 0, 0.43) !important;
+}
